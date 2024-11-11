@@ -1,46 +1,89 @@
-        body {
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             margin: 0;
-         }
-        table {
-            width: 20px
-            border-collapse: collapse;\
-        }
-        td {
-            border: 1px solid black;
-            height: 60px;
-            text-align: center; 
-            font-size: 45px;
-            width: 450px;
-        }
-.button {
-    font-size: 45px;
-    width: 450px;
-    height: 90px;
-    background-color: #ff6e9e;
-    border: 10px; 
-    border-radius: 2px;
-    cursor: pointer;
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.button:hover {
-    font-size: 45px;
-    width: 450px;
-    height: 90px;
-    background-color: #ff5c5c;
-    border: 10px;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-.override-font {
-    font-size: 30px;
-} 
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
 
-.pink-cell {
-       background-color: #ff5c5c;
-       border: 5px solid black;
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+#projects .project {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e0f7e9;
+  border-radius: 8px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form input, form textarea, form button {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
 }
