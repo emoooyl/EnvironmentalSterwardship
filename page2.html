@@ -1,68 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Eco World - Environment Awareness</title>
-  <link rel="stylesheet" href="styles.css">
+    <title> HTML & CSS Study </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header Section -->
-  <header>
-    <h1>Eco World</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <table border=5>
+        <tr>
+            <td colspan="3">
+                <img src="Banner.png" width="1355" height="600">
+            </td>
+        </tr>
+        <tr>
+               <td> <a href="index.html"><button class="button pink-cell"> Button 1 </button> </a> </td>
+               <td> <a href="page2.html"><button class="button pink-cell"> Button 2 </button> </a> </td>
+               <td> <a href="page3.html"><button class="button pink-cell"> Button 3 </button> </a> </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p> Homepage </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p class="override-font"> About us | Contact Us </p> 
+            </td>
+        </tr>
+    </table>
 
-  <!-- Home Section -->
-  <section id="home">
-    <h2>Welcome to Eco World</h2>
-    <p>Join us in making a difference to protect our planet. Discover ways to reduce waste, conserve energy, and create a sustainable future.</p>
-    <button onclick="learnMore()">Learn More</button>
-  </section>
-
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Eco World is dedicated to raising environmental awareness and promoting sustainable practices. Our mission is to inspire individuals to make small changes that lead to a big impact on our planet.</p>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Our Projects</h2>
-    <div class="project">
-      <h3>Tree Planting Campaign</h3>
-      <p>Join our efforts to plant thousands of trees and restore natural habitats in local communities.</p>
-    </div>
-    <div class="project">
-      <h3>Beach Cleanup Initiative</h3>
-      <p>Help us clean up beaches and reduce ocean pollution. Volunteer with us to protect marine life.</p>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form id="contactForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2024 Eco World. All Rights Reserved.</p>
-  </footer>
-
-  <script src="scripts.js"></script>
 </body>
 </html>
