@@ -4,3 +4,9 @@ header {
   font-size: 35px;
   color: white;
 }
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
