@@ -19,7 +19,7 @@
     font-size: 45px;
     width: 450px;
     height: 90px;
-    background-color: #ff6e9e;
+    background-color: #52a447;
     border: 10px; 
     border-radius: 2px;
     cursor: pointer;  
@@ -30,7 +30,7 @@
     font-size: 45px;
     width: 450px;
     height: 90px;
-    background-color: #ff5c5c;
+    background-color: #52a447;
     border: 10px;
     border-radius: 2px;
     cursor: pointer;
@@ -42,7 +42,7 @@
     font-size: 30px;
 } 
 
-.pink-cell {
-       background-color: #ff5c5c;
+.green-cell {
+       background-color: #52a447;
        border: 5px solid black;
 }
