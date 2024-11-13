@@ -12,11 +12,11 @@
             border: 1px solid black;
             height: 70px;
             text-align: center; 
-            font-size: 45px;
+            font-size: 15px;
             width: 450px;
         }
 .button {
-    font-size: 45px;
+    font-size: 15px;
     width: 450px;
     height: 90px;
     background-color: #52a447;
@@ -27,7 +27,7 @@
 }
 
 .button:hover {
-    font-size: 45px;
+    font-size: 15px;
     width: 450px;
     height: 90px;
     background-color: #52a447;
