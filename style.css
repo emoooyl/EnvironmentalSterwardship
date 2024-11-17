@@ -24,7 +24,7 @@
     border: 10px; 
     border-radius: 2px;
     cursor: pointer;  
-    font-style: serif; 
+    font-style: georgia; 
 }
 
 .button:hover {
@@ -46,4 +46,5 @@
 .green-cell {
        background-color: #52a447;
        border: 5px solid black;
+       font-style: georgia;
 }
