@@ -14,6 +14,7 @@
             text-align: center; 
             font-size: 15px;
             width: 45px;
+            border-collapse: collapse;\
         }
 .button {
     font-size: 15px;
