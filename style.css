@@ -18,7 +18,7 @@
         }
 .button {
     font-size: 15px;
-    width: 500px;
+    width: 600px;
     height: 90px;
     background-color: #f0f0f0;
     border: 10px; 
@@ -29,7 +29,7 @@
 
 .button:hover {
     font-size: 15px;
-    width: 500px;
+    width: 600px;
     height: 90px;
     background-color: #52a447;
     border: 10px;
@@ -44,7 +44,7 @@
 } 
 
 .green-cell {
-       background-color: #52a447;
+       background-color: #f0f0f0;
        border: 5px solid black;
        font-style: georgia;
 }
