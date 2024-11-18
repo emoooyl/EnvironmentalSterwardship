@@ -13,12 +13,12 @@
             height: 70px;
             text-align: center; 
             font-size: 15px;
-            width: 80px;
+            width: 90px;
             border-collapse: collapse;\
         }
 .button {
     font-size: 15px;
-    width: 600px;
+    width: 650px;
     height: 90px;
     background-color: #98A869;
     border: 10px; 
@@ -29,7 +29,7 @@
 
 .button:hover {
     font-size: 15px;
-    width: 600px;
+    width: 650px;
     height: 90px;
     background-color: #52a447;
     border: 10px;
