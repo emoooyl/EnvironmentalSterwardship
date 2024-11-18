@@ -20,7 +20,7 @@
     font-size: 15px;
     width: 600px;
     height: 90px;
-    background-color: #f0f0f0;
+    background-color: #98A869;
     border: 10px; 
     border-radius: 2px;
     cursor: pointer;  
@@ -44,7 +44,7 @@
 } 
 
 .green-cell {
-       background-color: #f0f0f0;
+       background-color: #98A869;
        border: 5px solid black;
        font-style: georgia;
 }
