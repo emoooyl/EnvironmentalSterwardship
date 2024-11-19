@@ -19,7 +19,9 @@
         }
         li {
             font-size: 25px;
+            padding: 5px 0px;
         } 
+
 .button {
     font-size: 15px;
     width: 500px;
