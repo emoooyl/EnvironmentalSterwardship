@@ -3,12 +3,11 @@
              justify-content: center;
              align-items: center;
              margin: 0;
-             background-color: #4caf21;
          }
         table {
             width: 45px
             border-collapse: collapse;\
-            background-color: #4caf21;
+            background-color: #72ab71;
         }
         td {
             border: 1px solid black;
